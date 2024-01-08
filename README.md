@@ -12,8 +12,8 @@ This project is an iOS application developed in SwiftUI and MVVM architecture. I
 ## Backlog
 | Task | Description | Status|
 | ----- | ----------- | ------ |
-| Create repo and make the initial analysis of how the app will be developed. | It is the initial task where an empty project is created and all the backlog points are organised for a more optimised development.| DOING |
-| Initial Project Configuration| Configure the project in Xcode with SwiftUI. | TODO |
+| Create repo and make the initial analysis of how the app will be developed. | It is the initial task where an empty project is created and all the backlog points are organised for a more optimised development.| DONE |
+| Initial Project Configuration| Configure the project in Xcode with SwiftUI. | DONE |
 | API Design and Testing | Design the structure of API calls with unit tests.| TODO |
 | Implementing API Services | Develop and test logic to consume the Rick and Morty API. | TODO |
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
