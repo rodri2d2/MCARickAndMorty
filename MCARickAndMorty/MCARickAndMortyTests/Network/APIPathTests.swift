@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import MCARickAndMorty
+
 class APIPathTests: XCTestCase {
 
     // MARK: Suceess
