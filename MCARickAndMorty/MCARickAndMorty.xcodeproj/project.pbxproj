@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B625DBC2B4D90C20039E566 /* CharacterPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B625DBB2B4D90C20039E566 /* CharacterPaths.swift */; };
+		5B625DBE2B4D920B0039E566 /* APIPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B625DBD2B4D920B0039E566 /* APIPathTests.swift */; };
+		5B625DC02B4D92300039E566 /* EpisodePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B625DBF2B4D92300039E566 /* EpisodePaths.swift */; };
 		5B9D78D12B4C637000BD7020 /* MCARickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D78D02B4C637000BD7020 /* MCARickAndMortyApp.swift */; };
 		5B9D78D32B4C637000BD7020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D78D22B4C637000BD7020 /* ContentView.swift */; };
 		5B9D78D52B4C637200BD7020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D78D42B4C637200BD7020 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B625DBB2B4D90C20039E566 /* CharacterPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPaths.swift; sourceTree = "<group>"; };
+		5B625DBD2B4D920B0039E566 /* APIPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPathTests.swift; sourceTree = "<group>"; };
+		5B625DBF2B4D92300039E566 /* EpisodePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodePaths.swift; sourceTree = "<group>"; };
 		5B9D78CD2B4C637000BD7020 /* MCARickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCARickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9D78D02B4C637000BD7020 /* MCARickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCARickAndMortyApp.swift; sourceTree = "<group>"; };
 		5B9D78D22B4C637000BD7020 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				5B9D79012B4C692F00BD7020 /* APIPath.swift */,
+				5B625DBB2B4D90C20039E566 /* CharacterPaths.swift */,
+				5B625DBF2B4D92300039E566 /* EpisodePaths.swift */,
 			);
 			path = Paths;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5B9D79042B4C6AB600BD7020 /* HttpMethodTests.swift */,
+				5B625DBD2B4D920B0039E566 /* APIPathTests.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -241,11 +250,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B625DBC2B4D90C20039E566 /* CharacterPaths.swift in Sources */,
 				5B9D78D32B4C637000BD7020 /* ContentView.swift in Sources */,
 				5B9D79022B4C692F00BD7020 /* APIPath.swift in Sources */,
 				5B9D79082B4C6C8A00BD7020 /* HTTPMethod.swift in Sources */,
 				5B9D78D12B4C637000BD7020 /* MCARickAndMortyApp.swift in Sources */,
 				5B9D78FD2B4C68BE00BD7020 /* URLRequestBuilder.swift in Sources */,
+				5B625DC02B4D92300039E566 /* EpisodePaths.swift in Sources */,
 				5B9D78FF2B4C68E700BD7020 /* APIMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B9D79052B4C6AB600BD7020 /* HttpMethodTests.swift in Sources */,
+				5B625DBE2B4D920B0039E566 /* APIPathTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
