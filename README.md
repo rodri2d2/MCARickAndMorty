@@ -9,12 +9,22 @@ This project is an iOS application developed in SwiftUI and MVVM architecture. I
 - iOS 16
 
 
+## Time Tracking
+Logging of hours spent on each project task.
+
+| Date | Task | Hours Employed|
+| ----- | ----- | ---------------- |
+| 08/01/2024 | Initial analisis, create repo, create backlog | 1:30H |
+| 09/01/2024 | API Design and Testing  |  1H |
+| TOTAL|  |  2:30H |
+
+
 ## Backlog
 | Task | Description | Status|
 | ----- | ----------- | ------ |
 | Create repo and make the initial analysis of how the app will be developed. | It is the initial task where an empty project is created and all the backlog points are organised for a more optimised development.| DONE |
 | Initial Project Configuration| Configure the project in Xcode with SwiftUI. | DONE |
-| API Design and Testing | Design the structure of API calls with unit tests.| TODO |
+| API Design and Testing | Design the structure of API calls with unit tests.| DOING |
 | Implementing API Services | Develop and test logic to consume the Rick and Morty API. | TODO |
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
 | Basic User Interface Design| Create a basic interface for the list of characters and details. | TODO |
@@ -23,7 +33,6 @@ This project is an iOS application developed in SwiftUI and MVVM architecture. I
 | Image and Response Caches | Develop a cache class with unit tests. | TODO |
 | UX/UI and Design Improvements in Figma | Refine the user interface and create a design system in Figma. | TODO |
 | Research on Server Driven UI | Investigate how to implement Server Driven UI in the project. | TODO |
-
 
 ## Git Workflow
 To ensure efficient and organised development, a simple Git workflow will be followed:
@@ -46,8 +55,8 @@ A chronological log of major decisions, changes, and milestones in the project, 
 | Fecha | Evento | Comentarios y Aprendizajes |
 | ----- | ------ | -------------------------- |
 | [08/01/2024] | Creation of the repository and initial analysis of the project. | No comments on is day |
-
-
-
-
-
+| [08/01/2024] | Start the analysis on how to desing API service | I will take advantage of the structure that I have been using in other projects and that I am even creating a library called [RequestBuilder](https://github.com/rodri2d2/RequestBuilder). This library is still under development but the code used will help me to build on it.|
+| [08/01/2024] | Start create network classes and test | Even if I do have a lot of code ready, I'm re-writing it to fallow correctly TDD and the backlog created|
+| [09/01/2024] | Keep create network classes and test | I have finished with the creation of protocols that will help standardise the creation of responses. I discovered a bug in my original URLRequesBuilder class when I was doing the tests for that project. I was able to fix it and made notes to change it in the framework I'm building. |
+| [09/01/2024] | Modify git ignore| I noticed that the "ignore file" was not configured correctly as it was asking for DS_STORE all the time. |
+| [09/01/2024] | Modify README | For the interview I have added a track of the time I have worked each day. |
