@@ -15,14 +15,12 @@ final class CharacterDataManager: DataManager {
         self.networkService = networkService
     }
 
-    func fetchCharacters(page: Int) async throws -> CharacterInfoResponse {
-        let requestBuilder = AllCharactersResquest()
-        return try await networkService.execute(for: requestBuilder)
+    func fetchCharacters(for request: AllCharactersResquest) async throws -> CharacterInfoResponse {
+        return try await networkService.execute(for: request)
     }
     
-    func fetchSingleCharacter(id: Int) async throws -> Character {
-        let requestBuilder = SingleCharacterResquest(for: id)
-        return try await networkService.execute(for: requestBuilder)
+    func fetchSingleCharacter(for request: SingleCharacterResquest) async throws -> Character {
+        return try await networkService.execute(for: request)
     }
 
 }

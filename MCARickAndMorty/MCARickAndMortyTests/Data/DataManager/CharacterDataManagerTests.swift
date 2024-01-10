@@ -34,8 +34,9 @@ final class CharacterDataManagerTests: XCTestCase {
     func test_SucceedFetchCharacters() async throws {
         
         do {
+            let request = AllCharactersResquest()
             let characters = try await allCharactersDataManager
-                .fetchCharacters(page: 1)
+                .fetchCharacters(for: request)
             XCTAssertNotNil(characters)
             XCTAssertTrue(characters.characters[1].id == 2)
             
@@ -46,8 +47,9 @@ final class CharacterDataManagerTests: XCTestCase {
     
     func test_SucceedFetchSingleCharacter() async throws {
         do {
+            let request = SingleCharacterResquest(for: 2)
             let character = try await singleCharacterDataManager
-                .fetchSingleCharacter(id: 2)
+                .fetchSingleCharacter(for: request)
             XCTAssertNotNil(character)
             XCTAssertTrue(character.id == 2)
         } catch {
