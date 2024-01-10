@@ -9,6 +9,6 @@ import Foundation
 
 class GreaterThanZeroValidator: Validator {
     func validate(input: Int) throws {
-        guard input > 0 else { throw ValidationError.invalidPageNumber }
+        guard input > 0 else { throw ValidationError.invalidNumber }
     }
 }
