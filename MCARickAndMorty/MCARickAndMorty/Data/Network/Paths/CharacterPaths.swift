@@ -8,12 +8,12 @@
 import Foundation
 
 enum CharacterPaths: APIPath {
-    case all
+    case all(page: Int)
     case single(id: Int)
     
     var path: String {
         switch self {
-        case .all: return "character"
+        case .all(let page): return "character/?page=\(page)"
         case .single(let id): return "character/\(id)"
         }
     }

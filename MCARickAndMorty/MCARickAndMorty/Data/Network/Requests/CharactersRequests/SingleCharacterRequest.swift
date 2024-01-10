@@ -16,5 +16,4 @@ struct SingleCharacterResquest: URLRequestBuilder {
     init(for id: Int) {
         self.path = CharacterPaths.single(id: id)
     }
-
 }
