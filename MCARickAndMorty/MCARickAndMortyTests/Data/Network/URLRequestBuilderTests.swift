@@ -12,7 +12,7 @@ final class URLRequestBuilderTests: XCTestCase {
     
     func test_SucceedURLRequestCreation() {
         let builder = MockURLRequestBuilder()
-        let request = builder.request()
+        let request = builder.buildRequest()
         
         XCTAssertEqual(request.url?.absoluteString, "https://rickandmortyapi-dev.com/api/testPath?key=value")
         XCTAssertEqual(request.httpMethod, HttpMethod.GET.rawValue)
@@ -20,7 +20,7 @@ final class URLRequestBuilderTests: XCTestCase {
     
     func testURLRequestHeaders() {
         let builder = MockURLRequestBuilder()
-        let request = builder.request()
+        let request = builder.buildRequest()
         
         XCTAssertEqual(request.value(forHTTPHeaderField: "Content-Type"), "application/json")
         XCTAssertEqual(request.value(forHTTPHeaderField: "Accept"), "application/json")
@@ -29,13 +29,13 @@ final class URLRequestBuilderTests: XCTestCase {
     
     func test_SucceedURLRequestWithParameters() {
         let builder = MockURLRequestBuilder()
-        let request = builder.request()
+        let request = builder.buildRequest()
         XCTAssertTrue(request.url?.absoluteString.contains("key=value") ?? false)
     }
     
     func test_SucceedURLRequestWithBody() {
         let builder = MockURLRequestBuilder()
-        let request = builder.request()
+        let request = builder.buildRequest()
         XCTAssertNotNil(request.httpBody)
     }
     

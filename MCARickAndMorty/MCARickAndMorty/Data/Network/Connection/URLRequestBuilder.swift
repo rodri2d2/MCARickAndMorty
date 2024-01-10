@@ -31,7 +31,7 @@ extension URLRequestBuilder {
     var body: [String: Any] { .init() }
     var headers: [String: String] { .init() }
 
-    func request() -> URLRequest {
+    func buildRequest() -> URLRequest {
 
         // Define the URL to call
         // E.G.: https://www.google.com/search
