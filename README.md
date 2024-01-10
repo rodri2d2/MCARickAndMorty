@@ -24,8 +24,8 @@ Logging of hours spent on each project task.
 | ----- | ----------- | ------ |
 | Create repo and make the initial analysis of how the app will be developed. | It is the initial task where an empty project is created and all the backlog points are organised for a more optimised development.| DONE |
 | Initial Project Configuration| Configure the project in Xcode with SwiftUI. | DONE |
-| API Design and Testing | Design the structure of API calls with unit tests.| DOING |
-| Implementing API Services | Develop and test logic to consume the Rick and Morty API. | TODO |
+| API Design and Testing | Design the structure of API calls with unit tests.| DONE |
+| Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DOING |
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
 | Basic User Interface Design| Create a basic interface for the list of characters and details. | TODO |
 | MVVM implementation| Develop ViewModels for the views, guided by TDD. | TODO |
