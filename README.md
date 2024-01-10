@@ -25,9 +25,11 @@ Logging of hours spent on each project task.
 | Create repo and make the initial analysis of how the app will be developed. | It is the initial task where an empty project is created and all the backlog points are organised for a more optimised development.| DONE |
 | Initial Project Configuration| Configure the project in Xcode with SwiftUI. | DONE |
 | API Design and Testing | Design the structure of API calls with unit tests.| DONE |
-| Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DOING |
-| Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
+| Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DONE |
+| Implement Characters Data | Implement character data manager, repository and use casese | DONE |
 | Basic User Interface Design| Create a basic interface for the list of characters and details. | TODO |
+| Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
+| Implement Episodes Data | Implement Espisode data manager, repository and use cases | TODO |
 | MVVM implementation| Develop ViewModels for the views, guided by TDD. | TODO |
 | Error and Status Management | Implement a system for error handling and load states, including testing. | TODO |
 | Image and Response Caches | Develop a cache class with unit tests. | TODO |
@@ -60,3 +62,6 @@ A chronological log of major decisions, changes, and milestones in the project, 
 | [09/01/2024] | Keep create network classes and test | I have finished with the creation of protocols that will help standardise the creation of responses. I discovered a bug in my original URLRequesBuilder class when I was doing the tests for that project. I was able to fix it and made notes to change it in the framework I'm building. |
 | [09/01/2024] | Modify git ignore| I noticed that the "ignore file" was not configured correctly as it was asking for DS_STORE all the time. |
 | [09/01/2024] | Modify README | For the interview I have added a track of the time I have worked each day. |
+| [10/01/2024] | Implement API Sevice | Implement the entire api access layer and make some tests |
+| [10/01/2024] | A lot of refactoring | While writing the new code I realised that I should have gone into more detail and divided the tasks more. I also had to do a lot of refactoring and apply other concepts. |
+| [10/01/2024] | New backlog| I have decided to increase the backlog to better divide the tasks. |
