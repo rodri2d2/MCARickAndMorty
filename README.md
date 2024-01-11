@@ -16,7 +16,9 @@ Logging of hours spent on each project task.
 | ----- | ----- | ---------------- |
 | 08/01/2024 | Initial analisis, create repo, create backlog | 1:30H |
 | 09/01/2024 | API Design and Testing  |  1H |
-| TOTAL|  |  2:30H |
+| 10/01/2024 |Implementing API Services  |  1:30H |
+| 10/01/2024 |Implement Characters Data  |  1H |
+| TOTAL|  |  5H |
 
 
 ## Backlog
@@ -27,7 +29,7 @@ Logging of hours spent on each project task.
 | API Design and Testing | Design the structure of API calls with unit tests.| DONE |
 | Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DONE |
 | Implement Characters Data | Implement character data manager, repository and use casese | DONE |
-| Basic User Interface Design| Create a basic interface for the list of characters and details. | TODO |
+| Basic User Interface Design| Create a basic interface for the list of characters and details. | DOING |
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
 | Implement Episodes Data | Implement Espisode data manager, repository and use cases | TODO |
 | MVVM implementation| Develop ViewModels for the views, guided by TDD. | TODO |
