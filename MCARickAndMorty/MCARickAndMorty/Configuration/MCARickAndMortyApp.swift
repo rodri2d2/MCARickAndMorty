@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MCARickAndMortyApp: App {
+    
+    private let container = DependencyContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel: CharactersViewModel = container.resolve()
+            CharactersView(viewModel: viewModel)
         }
     }
 }
