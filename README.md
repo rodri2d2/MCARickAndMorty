@@ -16,8 +16,9 @@ Logging of hours spent on each project task.
 | ----- | ----- | ---------------- |
 | 08/01/2024 | Initial analisis, create repo, create backlog | 1:30H |
 | 09/01/2024 | API Design and Testing  |  1H |
-| 10/01/2024 |Implementing API Services  |  1:30H |
-| 10/01/2024 |Implement Characters Data  |  1H |
+| 10/01/2024 | Implementing API Services  |  1:30H |
+| 10/01/2024 | Implement Characters Data  |  1H |
+| 11/01/2024 | Create base UI - SEE TODAY'S NOTE TO GET HOW 2H WAS SPENT |  2h |
 | TOTAL|  |  5H |
 
 
@@ -29,10 +30,11 @@ Logging of hours spent on each project task.
 | API Design and Testing | Design the structure of API calls with unit tests.| DONE |
 | Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DONE |
 | Implement Characters Data | Implement character data manager, repository and use casese | DONE |
-| Basic User Interface Design| Create a basic interface for the list of characters and details. | DOING |
+| Basic User Interface Design| Create a basic interface for the list of characters and details. | DONE |
+| Create a good user interface| Create a final user interface before finish other task | DOING |
+|
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
 | Implement Episodes Data | Implement Espisode data manager, repository and use cases | TODO |
-| MVVM implementation| Develop ViewModels for the views, guided by TDD. | TODO |
 | Error and Status Management | Implement a system for error handling and load states, including testing. | TODO |
 | Image and Response Caches | Develop a cache class with unit tests. | TODO |
 | UX/UI and Design Improvements in Figma | Refine the user interface and create a design system in Figma. | TODO |
@@ -67,3 +69,6 @@ A chronological log of major decisions, changes, and milestones in the project, 
 | [10/01/2024] | Implement API Sevice | Implement the entire api access layer and make some tests |
 | [10/01/2024] | A lot of refactoring | While writing the new code I realised that I should have gone into more detail and divided the tasks more. I also had to do a lot of refactoring and apply other concepts. |
 | [10/01/2024] | New backlog| I have decided to increase the backlog to better divide the tasks. |
+| [11/01/2024] | Create UI base | Creating a simple user interface is not complicated. The hard part was to fit it all together, since it is such a simple application, I decided to work very well on the architecture. So, when it was time to instantiate the VM I saw that there was a lot to cover. Creating a robust and functional Dependency Injection system was complex and even forced me to remove the VM as MainActor. |
+| [11/01/2024] | Create UI base | Once it was all finished, it was like playing a puzzle game, as it was just a matter of fitting the pieces together, but in a very simple way. As I am running out of time, I'm going to focus the rest on creating a nice UI. |
+
