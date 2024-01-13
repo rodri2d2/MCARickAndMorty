@@ -19,7 +19,8 @@ Logging of hours spent on each project task.
 | 10/01/2024 | Implementing API Services  |  1:30H |
 | 10/01/2024 | Implement Characters Data  |  1H |
 | 11/01/2024 | Create base UI - SEE TODAY'S NOTE TO GET HOW 2H WAS SPENT |  2h |
-| TOTAL|  |  5H |
+| 13/01/2024 | Create a good user interface -  SEE TODAY'S NOTE TO GET HOW 2H WAS SPENT| 2H |
+| TOTAL|  |  9H |
 
 
 ## Backlog
@@ -31,8 +32,8 @@ Logging of hours spent on each project task.
 | Implementing API Services | Develop and test logic to consume the Rick and Morty API. | DONE |
 | Implement Characters Data | Implement character data manager, repository and use casese | DONE |
 | Basic User Interface Design| Create a basic interface for the list of characters and details. | DONE |
-| Create a good user interface| Create a final user interface before finish other task | DOING |
-|
+| Create a good user interface| Create a final user interface before finish other task | DONE |
+| Implement dynamic color into the interface| Implent how to change background color with image avarege color| DOING |
 | Navigation Coordinator | Implement a navigation coordinator using NavigationStack. | TODO |
 | Implement Episodes Data | Implement Espisode data manager, repository and use cases | TODO |
 | Error and Status Management | Implement a system for error handling and load states, including testing. | TODO |
@@ -71,4 +72,8 @@ A chronological log of major decisions, changes, and milestones in the project, 
 | [10/01/2024] | New backlog| I have decided to increase the backlog to better divide the tasks. |
 | [11/01/2024] | Create UI base | Creating a simple user interface is not complicated. The hard part was to fit it all together, since it is such a simple application, I decided to work very well on the architecture. So, when it was time to instantiate the VM I saw that there was a lot to cover. Creating a robust and functional Dependency Injection system was complex and even forced me to remove the VM as MainActor. |
 | [11/01/2024] | Create UI base | Once it was all finished, it was like playing a puzzle game, as it was just a matter of fitting the pieces together, but in a very simple way. As I am running out of time, I'm going to focus the rest on creating a nice UI. |
+| [13/01/2024] | Create better UI| Here I have seen how a "FIGMA" is important. In the end, in the rush to deliver everything, I couldn't think of a UI that I liked. I had clear that I wanted to implement a HERO ANIMATION but the truth was more expensive than I thought.|
+| [13/01/2024] | Background color | I want to implement this dynamic colour change. But it is true that the fact of working with asynchronous images makes it a bit complicated but as a personal challenge I want to do it.|
+
+
 
